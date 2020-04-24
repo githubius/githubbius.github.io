@@ -1,0 +1,126 @@
+body {
+	background: #d2ba98;
+}
+
+.top-panel {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	margin: 0 3% 40px;
+	padding: 0 2% 60px;
+	color: #ff6b6b;
+	border-bottom: 2px solid black;
+	/*background: rgb(255,207,218);
+	background: linear-gradient(273deg, rgba(255,207,218,0.583053204191833) 0%, rgba(231,121,147,1) 100%); */
+}
+	.top-panel .logo {
+		position: relative;
+		flex-basis: 140px;
+		text-align: center;
+		}
+		.top-panel .logo b {
+    		font-family: 'Lobster', cursive;
+    		font-size: 60px;
+    		color: white;
+    		/*text-shadow: 1px 1px 2px black, 0 0 1em red;*/
+    		text-shadow: 1px 1px 2px black;
+    		/*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+		}
+		.top-panel .logo span {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			font-size: 10px;
+			color: white;
+			text-shadow: 1px 1px 2px black;
+		}
+	.top-panel .link {
+		margin-top: 20px;
+		font-weight: bold;
+		flex-basis: 150px;
+		font-size: 1.5em;
+		color: white;
+		text-shadow: 1px 1px 2px black;
+	}
+.intro {
+	margin: 50px 0;
+	/*background-image: url('img/intro.jpg');*/
+	/*color: black;*/
+	position: relative;
+}
+.jumbotron {
+	background: none;
+}
+@media (max-width: 576px) {
+	.intro .display-4 {
+		font-size: 2rem;
+	}
+}
+
+.catalog {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	margin: 20px 20px;
+}
+	.catalog .video-box {
+		position: relative;
+		flex-basis: 23%;				
+		margin: 0 2%;
+		margin-bottom: 80px;
+	}
+		.video-box .caption {
+			position: relative;
+			padding: 20px 0;
+			margin-bottom: -68px;
+			/*color: #d2ba98;*/
+			color: #ffa400;
+			font-size: 1.5em;
+			text-align: center;
+			background: #212529;
+			z-index: 10;
+		}				
+		.video-box .video {
+			position: relative;
+			width: 100%;					
+			outline: none;
+			z-index: 0;			
+		}
+		.video-box .download {
+			position: relative;
+			padding: 20px 10px;
+			display: block;	
+			margin-top: -69px;
+			/*color: #d2ba98;*/
+			color: #ffa400;
+			font-weight: bold;
+			background: url('../img/down24a.png') 96% 50% no-repeat #212529;
+			/*background-color: black;*/
+			z-index: 10;		
+		}
+		.video-box .icon-play {
+			position: absolute;
+			top: 45%;
+			left: 40%;
+			display: block;
+			width: 64px;
+			height: 64px;
+			background: url('../img/play64a.png') 0% 0% no-repeat;
+			z-index: 20;
+		}
+		.border {
+			border: solid 12px black;
+			align-self: center;
+			background: transparent;
+			/*padding: 1px;					*/
+			transition: all .5s ease;
+			color: #41403E;
+			outline: none;
+			box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+			border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+		}
+.how-to h1 {
+	text-align: center;
+}
+	

@@ -1,6 +1,3 @@
-var burger = document.getElementById('burger');
-var menu = document.getElementById('navbar');
-
 $('#burger').click(function () {
     $('#burger').toggleClass('burger--active');
     $('#navbar').toggleClass('navbar--show');

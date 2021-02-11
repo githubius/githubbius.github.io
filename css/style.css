@@ -328,7 +328,7 @@ button {
       .navbar-social {
         margin-top: 0;
         margin-left: 1vw;
-        width: 70px; } }
+        width: 90px; } }
 
 /* Slider */
 .slider-button--close {
@@ -397,7 +397,8 @@ button {
   align-items: center; }
   .social svg {
     width: 20px;
-    fill: #5b5b55; }
+    fill: #5b5b55;
+    transition: .5s fill; }
     .social svg:hover {
       fill: #ed0707; }
 
